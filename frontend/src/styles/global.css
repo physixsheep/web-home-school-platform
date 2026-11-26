@@ -1,0 +1,120 @@
+:root {
+  font-family:
+    Inter, "PingFang SC", "Microsoft YaHei", "Helvetica Neue", Arial,
+    sans-serif;
+  color: #14213d;
+  background: #f4f7fc;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  min-width: 1180px;
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  background: #f4f7fc;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.management-page {
+  display: grid;
+  gap: 18px;
+}
+
+.page-heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.page-heading h2 {
+  margin: 0;
+  color: #172844;
+  font-size: 22px;
+}
+
+.page-heading p {
+  margin: 8px 0 0;
+  color: #7d899b;
+  font-size: 13px;
+}
+
+.data-card {
+  overflow: hidden;
+  border: 1px solid #e7ecf4;
+  border-radius: 15px;
+  background: #fff;
+  box-shadow: 0 8px 24px rgba(22, 53, 97, 0.05);
+}
+
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 20px 22px;
+  border-bottom: 1px solid #eef2f7;
+  background: #fbfcff;
+}
+
+.filter-bar .el-input {
+  width: 230px;
+}
+
+.filter-bar .el-select {
+  width: 160px;
+}
+
+.table-wrap {
+  padding: 0 22px;
+}
+
+.pagination-row {
+  display: flex;
+  justify-content: flex-end;
+  padding: 18px 22px 22px;
+}
+
+.dialog-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.muted-text {
+  color: #8a96a8;
+}
+
+.role-pill {
+  display: inline-flex;
+  align-items: center;
+  min-height: 25px;
+  padding: 0 9px;
+  border-radius: 999px;
+  color: #2463b8;
+  background: #edf4ff;
+  font-size: 12px;
+  font-weight: 600;
+}
+

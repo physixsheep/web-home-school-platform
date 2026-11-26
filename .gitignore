@@ -1,0 +1,32 @@
+# Java
+backend/target/
+release/
+*.class
+*.log
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+.pnpm-store/
+.smoke/
+
+# Local configuration and secrets
+.env
+.env.*.local
+backend/src/main/resources/application-local.yml
+backend/src/main/resources/application-secret.yml
+
+# Runtime files
+storage/upload/*
+storage/temp/*
+!storage/upload/.gitkeep
+!storage/temp/.gitkeep
+
+# IDE and OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+

@@ -1,0 +1,17 @@
+package com.homeschool.platform.module.organization.dto;
+
+import com.homeschool.platform.common.api.PageQuery;
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class TeacherAssignmentQuery extends PageQuery {
+
+    private String keyword;
+    private Long teacherId;
+    private Long classId;
+    private String relationType;
+    private String status;
+}
+
